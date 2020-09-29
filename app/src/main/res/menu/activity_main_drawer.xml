@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_enrollment"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="@string/menu_enrollment" />
+        <item
+            android:id="@+id/nav_unenrollment"
+            android:icon="@drawable/ic_delete_forever_black_24dp"
+            android:title="@string/menu_unenrollment" />
+        <item
+            android:id="@+id/nav_manage_acc"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="@string/menu_manage_acc" />
+        <item
+            android:id="@+id/nav_manage_rep"
+            android:icon="@drawable/ic_error_black_24dp"
+            android:title="@string/menu_manage_rep" />
+    </group>
+</menu>
